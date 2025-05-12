@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sundeep Gantyada | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <style>
+    :root {
+      --primary: #0f2027;
+      --secondary: #203a43;
+      --accent: #2c5364;
+      --highlight: #00c6ff;
+      --text: #f4f4f4;
+      --bg-gradient: linear-gradient(to right, #232526, #414345);
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--bg-gradient);
+      color: var(--text);
+    }
+    header {
+      background: linear-gradient(135deg, #1d2b64, #f8cdda);
+      color: #ffffff;
+      padding: 80px 20px 60px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+    section {
+      padding: 60px 80px;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(8px);
+      border-radius: 12px;
+      margin: 40px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+      animation: fadeIn 1s ease-in-out;
+    }
+    h1, h2 {
+      margin-top: 0;
+      font-weight: 700;
+    }
+    .job, .project {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 25px;
+      margin-bottom: 30px;
+      border-left: 6px solid var(--highlight);
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .job:hover, .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+    }
+    .contact a {
+      color: var(--highlight);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    a {
+      color: #00bcd4;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #0097a7;
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sundeep Gantyada</h1>
+    <p>Full Stack Java Developer | AWS Certified | Database Specialist</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I am a Full Stack Java Developer with over 4 years of experience building scalable, secure, and performance-optimized applications across banking, healthcare, and SaaS industries. Proficient in Java, Spring Boot, React, PostgreSQL, and AWS. Passionate about solving real-world problems with clean and efficient code.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <p><strong>Languages:</strong> Java, Python, JavaScript, C/C++, C#, SQL<br/>
+       <strong>Frameworks:</strong> Spring Boot, Hibernate, React.js, .NET<br/>
+       <strong>Tools:</strong> Git, Docker, Jenkins, JIRA<br/>
+       <strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Redis<br/>
+       <strong>Cloud:</strong> AWS (EC2, RDS, S3, CloudWatch)</p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="job">
+      <strong>Java Full Stack Developer – M&T Bank (2024–Present)</strong>
+      <p>Built scalable enterprise banking platform for 5M+ users. Improved uptime to 99.98% and reduced service delays by 45%. Developed REST APIs, integrated financial systems, and built secure UIs using React.js.</p>
+    </div>
+    <div class="job">
+      <strong>Full Stack Java Developer – Centene Corp (2023–2024)</strong>
+      <p>Led development of healthcare platform for 6M+ records with HIPAA compliance. Built microservices using Spring Boot, optimized cloud costs with AWS, and improved claim processing speed by 45%.</p>
+    </div>
+    <div class="job">
+      <strong>Full Stack Software Engineer – Zoho (2020–2022)</strong>
+      <p>Enhanced enterprise CRM platform with optimized performance and Redis caching. Boosted database speed and UI responsiveness using Java, Spring, and PostgreSQL.</p>
+    </div>
+    <div class="job">
+      <strong>Intern – Zoho (2019–2020)</strong>
+      <p>Contributed to internal CRM tools. Improved UI components and participated in Agile ceremonies while building workflow automation features.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <strong>Password Store Manager</strong>
+      <p>Built with .NET and MySQL. Provides secure password storage with encryption, authentication, and custom password generation.</p>
+      <a href="https://github.com/Sundeepgantyada09/Password-Store-Manager">GitHub Repo</a>
+    </div>
+    <div class="project">
+      <strong>Online Food Ordering App</strong>
+      <p>Full-stack app using Java, Spring Boot, React, and Oracle SQL. Allows users to browse, customize, and order food online with real-time pricing APIs.</p>
+      <a href="https://github.com/anudeepamara/GeekSquad.github.io">GitHub Repo</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p><strong>M.S. in Applied Computer Science</strong>, Grand Valley State University, USA (2024)<br/>
+       Specialization in Database Management, GPA: 3.64/4.0</p>
+    <p><strong>B.E. in Computer Science</strong>, Sathyabama University, India (2020)<br/>
+       GPA: 8.03/10</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:gantyadasundeep.work@gmail.com">gantyadasundeep.work@gmail.com</a><br/>
+       LinkedIn: <a href="https://linkedin.com/in/gantyada">linkedin.com/in/gantyada</a><br/>
+       GitHub: <a href="https://github.com/Sundeepgantyada09">github.com/Sundeepgantyada09</a><br/>
+       Leetcode: <a href="https://leetcode.com/u/Sundeep09/">leetcode.com/u/Sundeep09</a></p>
+  </section>
+
+  <script>
+    ScrollReveal().reveal('section', {
+      duration: 1000,
+      distance: '60px',
+      origin: 'bottom',
+      easing: 'ease-in-out',
+      interval: 200
+    });
+  </script>
+</body>
+</html>
